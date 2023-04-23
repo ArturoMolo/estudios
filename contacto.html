@@ -1,0 +1,165 @@
+<!--------------------------------------- Website estudios ----------------------------------------->
+
+<!---------------------------------------Creación del documento html-------------------------------->
+<doctype html>
+    <html lang="es">
+    <!----------------------------------Diseño de la barra del buscador----------------------------->
+    <head>
+        <!--Título del sitio web-->
+        <title>Website estudios</title>
+        <!--Descripción de la página-->
+        <meta name="description" content="Si quiere viajar por estudios a España nosotros le conseguimos la documentación necesaria. Contáctanos"/>
+        <!--Para poder usar palabras acentuadas-->
+        <meta charset="UTF-8">
+        <!--Para que el ancho de la web sea igual que el ancho del dispositivo-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+        <!--Hojas de estilos CSS-->
+        <link rel="stylesheet" href="contacto.css">
+        <link rel="stylesheet" href="hamburgers.css">
+        
+        <!--Logotipo del sitio web en el buscador de Google (de momento no me funciona el enlace)-->
+        <link rel="shorcut-icon" type="image/x-icon" href="logo.ico"/>
+    </head>
+
+    
+<!------------------------------------Cuerpo principal de la página web--------------------------->
+<body>
+    <!---------------------------------Encabezado y menú principal-------------------------------->
+    <header>
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                </button>
+            </a>
+
+            <p>WhatsApp: +34111222333</p>
+            
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="logo" width="70">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="curso-inicial.html">ESTUDIAR EN LA UNIVERSIDAD</a></li>
+                <li><a href="curso-avanzado.html">ESTUDIAR FP DE GRADO MEDIO O SUPERIOR</a></li>
+                <li><a href="sistema-trading.html">ESTUDIOS PRIMARIOS, SECUNDARIOS Y BACHILLERATO</a></li>
+                <li><a href="curso-inicial.html">HOMOLOGACIÓN / CONVALIDACIÓN DE ESTUDIOS</a></li>
+                <li><a href="curso-inicial.html">TRÁMITES EN EXTRANJERÍA</a></li>
+                <li><a href="curso-inicial.html">BÚSQUEDA DE ALOJAMIENTO</a></li>
+                <li><a href="curso-inicial.html">TRÁMITES EN UNEDASISS</a></li>
+                <li><a href="curso-inicial.html">CONTRATAR SEGURO MÉDICO</a></li>
+                <li><a href="https://www.instagram.com/arturofxtrader/">INSTAGRAM</a></li>
+           </ul>
+        </nav>
+
+        <!--<div class="cabecera">
+            <div class="enlaces-cabecera">
+            <a class="cursos" href="cursos.html">ESTO ES LO QUE PODEMOS HACER POR TI</a>
+            <a class="sistema" href="sistema-trading.html">CONTACTA CON NOSOTROS</a>
+            </div>
+        </div>-->
+    </header>
+    
+
+    
+    <!--------------------Cuerpo (desarrollo o parte principal de la página web)------------------->
+    <!---------------------------------------Creación de artículos--------------------------------->
+    <section class="wrapper">
+        <section class="main">
+            <section class="articles">
+                <!---Primer artículo: Contacto--->
+                <form id="contactform" action="https://formspree.io/f/arthur_n09@hotmail.com" method="POST">
+                    <label>
+                      Nombre:
+                    <input type="text" name="nombre" required="required" placeholder="Escribe tu nombre" pattern="[a-zA-Z]{1,10}" maxlength="10">
+                    </label>
+                    <label>
+                      Email:
+                     <input type="text" name="_replyto" required="required" placeholder="Escribe tu email">
+                     </label>
+                     <label>
+                      Mensaje:
+                     <textarea name="mensaje" required="required" placeholder="Escribe tu mensaje"></textarea>
+                     </label>
+                    <input type="hidden" name="_next" value="//molotradecompany.com/index.html"/> <!--Volver a esta página después de enviar el mensaje-->
+                    <input type="hidden" name="_subject" value="Nuevo mensaje de mi sitio web"/>
+                    <input type="text" name="_gotcha" style="display:none"/> <!--Para evitar correos spam-->
+                    <script>
+                        var contactform =  document.getElementById('contactform');
+                        contactform.setAttribute('action', '//formspree.io/' + 'arthur_n09' + '@' + 'hotmail' + '.' + 'com');
+                    </script>
+                  
+                    <!-- your other form fields go here -->
+                  
+                    <button type="submit">ENVIAR</button>
+                </form>
+                </br>
+                </br>
+            </section>
+        </section>
+    </section>
+
+
+     <!---------------------------------Creación del pié de página--------------------------------->
+     <footer>
+        <div class="contenedor-footer">
+            <div class="contenedor-principal">
+                <div class="Columna1">
+                    <h1>CURSOS FOREX</h1>
+                    <p><a href="curso-inicial.html">Curso Inicial</a></p>
+                    <p><a href="curso-avanzado.html">Curso Avanzado</a></p>
+                    <p><a href="sistema-trading.html">Mi Sistema de Trading</a></p>
+                </div>
+
+                <div class="Columna2">
+                    <h1>INFORMACIÓN</h1>
+                    <p><a href="aviso-legal.html">Aviso legal</a></p>
+                    <p><a href="terminos-condiciones.html">Términos y condiciones</a></p>
+                    <p><a href="politica-privacidad.html">Política y privacidad</a></p>
+                </div>
+
+                <div class="Columna3">
+                    <h1>MÁS INFORMACIÓN</h1>
+                    <p><a href="contacto.html">Contacto</a></p>
+                    <p><a href="https://www.instagram.com/arturofxtrader/">Instagram</a></p>
+                    <p><a href="https://www.facebook.com/molotradecompany/?eid=ARBUm0FwOPu5uYTJV7I9iOMqn5o8Bftzfcxwg_1f8trBSnq05sWAxTLF8_Qp3DpBfdNMLTtzlj6nEE0x">Facebook</a></p>
+                </div>
+            </div>
+            
+            <div class="subcontenedor">
+                <div class="columna01">
+                    <h1>CURSOS</h1>
+                    <p class="span">
+                        <span>
+                            <img class="paypal" src="paypal.png" width="30rem" height="25rem">
+                            <img class="visa" src="visa.png" width="30rem" height="25rem">
+                            <img class="mastercard" src="mastercard.png" width="30rem" height="25rem">
+                        </span>
+                    </p>
+                </div>
+
+                <div class="columna02">
+                    <h1>INFORMACIÓN</h1>
+                    <p class="copryright">Copyright @2020 |</p>
+                    <br>
+                    <p>Creado por <a href="https://www.instagram.com/arturofxtrader/">@arturofxtrader</a></p> 
+                </div>
+
+                <div class="columna03">
+                    <h1>MÁS INFORMACIÓN</h1>
+                    <p><a href="index.html">Volver a Inicio</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-------------------------------------Enlaces Javascript--------------------------------------->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+    <script src="menu01.js"></script>
+</body>
+</html>
