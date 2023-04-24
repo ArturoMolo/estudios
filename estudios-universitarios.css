@@ -113,7 +113,7 @@
 .wrapper, .main, .articles{
     width:auto;
     height:auto;
-    padding-top:1rem;
+    /*padding-top:1rem;*/
     font-family: Arial, Vegur, 'PT Sans', Verdana, sans-serif;
 }
 /*----------------------------------Edición estudios universitarios----------------------------------*/
