@@ -1,5 +1,5 @@
 /*------------------------------------------ORDENADOR-------------------------------------------------*/
-*{
+    *{
     margin:0;
     padding:0;
     }
@@ -7,7 +7,7 @@
     background:#fff;
     }
 
-    /*------------------------------------Editamos la barra del menú----------------------------------*/
+    /*-------------------------------------Editamos la barra del menú----------------------------------*/
     header{
         width:100%; /*Tanto en escritorio como en dispositivos móviles. a veces lo que no abarca el 100% es la etiqueta ul no el width del header*/
     }
@@ -19,7 +19,7 @@
         height:100%;
         margin:0;
         position:fixed;
-        transition: left 1s; /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
+        transition: left 1s; /*Sin esta propiedad el menú no se despliega en Github al presionar el botón del menú hamburguesa*/
         left:-21%; /*El menu desplegable se escuentra escondido en la izquierda nada mas entrar en la web*/
     }
     nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
@@ -77,6 +77,36 @@
         margin-top:0.9rem;
     }
 
+    /*-------------------Editamos la cabecera del menú------------------*/
+    .cabecera{
+        width:100%;
+        height:95%;
+        margin:0;
+        padding:0;
+        padding-top:22rem;
+        text-align:center;
+        box-sizing:border-box;
+        background:url(escritorio.jpg);
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+        background-position:center;
+        background-size:cover;
+    }
+    .enlaces-cabecera{
+        padding-top:1.25rem;
+        padding-bottom:1.25rem;
+        margin-top:auto;
+        margin-bottom:auto;
+        display:inline-block;
+    }
+    header .cabecera a{
+        background:#000;
+        color:#fff;
+        text-decoration:none;
+        font-size:1.25rem;
+        margin:0.6rem;
+        padding:0.5rem 1.8rem;
+    }
 
 
 /*------------------------------------Edición de la sección Main-------------------------------------*/
@@ -84,7 +114,10 @@
     width:100%;
     height:auto;
     padding-top:1rem;
+    font-family: Arial, Vegur, 'PT Sans', Verdana, sans-serif;
 }
+
+
 
 /*--------------------------------Edición del formulario de contacto----------------------------------*/
 form{
@@ -130,7 +163,6 @@ button[type="submit"]{
 button[type="submit"]:hover{
     cursor:pointer;
 }
-
 
 
 /*----------------------Edición del footer----------------------------*/
@@ -267,10 +299,8 @@ footer{
 
 
 
-/*---------------------------------------------REPONSIVE-----------------------------------------------*/
-
+/*----------------------------------REPONSIVE--------------------------------------*/
 @media screen and (min-width:767px) and (max-width:1024px){
-    /*------------------Edición del header--------------------*/
     header nav{
         left:-30%;
         width:30%;/*Para que no ocupe toda la anchura de la ventana*/
@@ -283,7 +313,6 @@ footer{
 
 /*----------------------RESPONSIVE iPAD MINI----------------------*/
 @media screen and (min-width:480px) and (max-width:767px){
-    /*---------------------Edición del header---------------------*/
     header nav{
         left:-30%;
         width:30%;/*Para que no ocupe toda la anchura de la ventana*/
@@ -291,8 +320,7 @@ footer{
     nav.active{ /*Sin esta propiedad el menú no se despliega en Github ap presionar el botón del menú hamburguesa*/
         left: 0px;
     }
-
-    /*---------------------Edición del footer---------------------*/
+    /*-----------------------Edición del footer------------------*/
     .columna1, .columna2, .columna3{
         width:100%; /*Para que ocupen todo el ancho de la página*/
         margin-bottom:15%;
@@ -302,7 +330,7 @@ footer{
 
 /*-----------------------RESPONSIVE TELÉFONO----------------------*/
 @media screen and (max-width:480px){
-    /*-----------------Edición del header-----------------*/
+    /*-----Edición del header------*/
     header nav{
         left:-80%;
         width:80%;/*Para que no ocupe toda la anchura de la ventana*/
@@ -315,18 +343,34 @@ footer{
         font-size:0.6rem;
     }
     .enlaces-cabecera{
-        margin-top:-9rem;
+        margin-top:-12rem;
     }
     header p{
         font-size:0.7rem;
     }
 
-    /*--------Edición del formulario de contacto-----------*/
-    form{
-        width:100%;
-        margin-top:-2rem;
-        margin-bottom:1rem;
+    /*-----Explora los cursos------*/
+    .hijo{ /*Editamos los divs*/
+        width:18rem;
+        height:18rem;
     }
+    /*-----Explora mi sistema------*/
+    .hijo03{ /*Editamos los divs*/
+        width:18rem;
+        height:18rem;
+    }
+    .hijo04{ /*Editamos los divs*/
+        width:18rem;
+        height:18rem;
+    }
+
+
+    /*------Editamos la sección de Instagram*/
+    .contenedor-instagram{
+        margin-top:1%;/*Para igaualar ambos márgeens*/
+        margin-bottom:10%;/*Para igaualar ambos márgeens*/
+    }
+
 
     /*--------Editamos el footer---------*/
 .columna1, .columna2, .columna3{
@@ -361,3 +405,5 @@ footer{
     margin-top:1rem;/*Para aumentar el espacio que hay sobre Volver al inicio*/
 }
 }
+    
+    
