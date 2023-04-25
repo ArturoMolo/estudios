@@ -120,6 +120,26 @@
 
 
 /*--------------------------------Edición del formulario de contacto----------------------------------*/
+.formulario{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3rem;
+    margin-bottom:-6rem;
+}
+
+.formulario h1{
+    font-weight:normal;
+    font-family:normal;
+    /*margin:0.60rem;*/
+    /*margin-left:0;*/
+    text-align:center;
+    background:#474b4e;
+    color:#fff;
+    font-size:1.25rem;
+    /*margin-bottom:3rem;*/
+}
+
 form{
     width:70%;
     padding:1.25rem;
@@ -365,10 +385,22 @@ footer{
     }
 
 
-    /*------Editamos la sección de Instagram*/
+    /*------Editamos la sección de Instagram-------------*/
     .contenedor-instagram{
         margin-top:1%;/*Para igaualar ambos márgeens*/
         margin-bottom:10%;/*Para igaualar ambos márgeens*/
+    }
+
+
+
+    /*--------Editamos el formulario de contacto---------*/
+    .formulario{
+        width:90%;
+        margin-top:1.5rem;
+        margin-bottom:-6rem;
+    }
+    .formulario h1{
+        font-size:1rem;
     }
 
 
