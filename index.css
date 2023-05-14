@@ -193,7 +193,8 @@ button[type="submit"]:hover{
     margin-bottom:2rem;/*Para añadir espacio debajo del texto Explora los cursos*/
 }
 .padre01 h3{
-    font-weight:normal; /*Cambiar de negrita a normal el texto Explora los cursos*/
+    font-weight:bold; /*Cambiar de negrita a normal el texto Explora los cursos*/
+
 }
 .padre02{
     /*background:#ccc;*/
