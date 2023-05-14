@@ -507,11 +507,6 @@ footer{
     }
 
 
-    .wrapper button{
-        margin-left:10%; 
-    }
-
-
 
     /*---------------------------Explora los cursos-----------------------------*/
         /*----Editamos el formulario de contacto----*/
@@ -525,8 +520,7 @@ footer{
         }
 
         .wrapper button{
-            margin-left:30%;
-            margin-right:30∞;
+            margin-left:25%;
         }
 
 
