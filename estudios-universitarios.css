@@ -438,6 +438,10 @@ footer{
         font-size:1rem;
     }
 
+    .wrapper button{
+        margin-left:25%;
+    }
+
 
     /*--------Editamos el footer---------*/
 .columna1, .columna2, .columna3{
