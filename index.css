@@ -189,7 +189,7 @@ button[type="submit"]:hover{
 }
 .padre01{ /*Editamos el texto Explora los cursos*/
     text-align:center; /*Centrar el texto Explora los cursos*/
-    font-size:1.25rem;
+    font-size:1.20rem;
     margin-bottom:2rem;/*Para añadir espacio debajo del texto Explora los cursos*/
 }
 .padre01 h3{
