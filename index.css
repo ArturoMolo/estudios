@@ -531,6 +531,9 @@ footer{
         height:100%;
         background:black;
     }
+    .wrapper .elim{
+        text-decoration:none;
+    }
     /*-----Explora mi sistema------*/
     .hijo03{ /*Editamos los divs*/
         width:18rem;
