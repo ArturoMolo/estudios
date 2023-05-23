@@ -197,29 +197,32 @@ button[type="submit"]:hover{
 
 }
 .padre02{
-    /*background:#ccc;*/
-    height:auto;
-    display:flex; /*para los div se situen uno a la izquierda del otro*/
+    background:#ccc;
+    width:100%;
+    height:20rem;
+    /*display:flex; /*para los div se situen uno a la izquierda del otro*/
     /*flex-direction:row;*/
     justify-content:space-around; /*Para añadir espacio entre ambos divs*/
     flex-flow:wrap;
 }
-.hijo{ /*Editamos los divs*/
-    width:30rem;
-    height:30rem;
+.padre02 .hijo{ /*Editamos los divs*/
+    width:100%;
+    height:100%;
     background:#474b4e;
-    margin:1.25rem;
+    /*margin:1.25rem;*/
     box-sizing:border-box;
     font-size:1rem;
+    text-align:center;
 }
 .hijo:hover{
     transform:scale(1.08);
 }
 .padre02 h3{
     color:#fff;
-    font-size:1rem;
-    text-align:center;
-    padding-top:50%;
+    font-size:1.5rem;
+    /*text-align:center;*/
+    padding-top:9%;
+    padding-bottom:10%;
 }
 .padre02 a{
     text-decoration:none;
