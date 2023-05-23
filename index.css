@@ -527,7 +527,7 @@ footer{
         }
 
 
-    .padre02 a{
+    .wrapper .padre02 a{
         text-decoration:none; /*Para quitar el subrayado de la palabra Menu*/
     }
     .hijo{ /*Editamos los divs*/
