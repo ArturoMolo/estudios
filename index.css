@@ -179,10 +179,6 @@ button[type="submit"]:hover{
     cursor:pointer;
 }
 
-
-/*.elim{
-    text-decoration:black;
-}*/
 .padre01-padre02{
     width:100%;
     margin-bottom:2rem;
@@ -200,8 +196,6 @@ button[type="submit"]:hover{
     background:#ccc;
     width:100%;
     height:20rem;
-    /*display:flex; /*para los div se situen uno a la izquierda del otro*/
-    /*flex-direction:row;*/
     justify-content:space-around; /*Para añadir espacio entre ambos divs*/
     flex-flow:wrap;
 }
@@ -209,7 +203,6 @@ button[type="submit"]:hover{
     width:100%;
     height:100%;
     background:#474b4e;
-    /*margin:1.25rem;*/
     box-sizing:border-box;
     font-size:1rem;
     text-align:center;
@@ -220,7 +213,6 @@ button[type="submit"]:hover{
 .padre02 h3{
     color:#fff;
     font-size:1.5rem;
-    /*text-align:center;*/
     padding-top:9%;
     padding-bottom:10%;
 }
@@ -235,10 +227,8 @@ button[type="submit"]:hover{
 /*------------------------------------Edición de Explora mi sistema de trading-------------------------------------*/
 .padre03{
     background:#ccc;
-    /*width:100%;*/
     height:auto;
     display:flex; /*para los div se situen uno a la izquierda del otro*/
-    /*flex-direction:row;*/
     justify-content:space-around; /*Para añadir espacio entre ambos divs*/
     flex-flow:wrap;
 }
@@ -248,7 +238,6 @@ button[type="submit"]:hover{
     height:30rem;
     margin:1.25rem;
     box-sizing:border-box;
-    /*border:1px solid #000;*/
 }
 .hijo03 h2{
     font-weight:normal; /*Cambiar de negrita a normal el texto Explora los cursos*/
@@ -301,13 +290,7 @@ button[type="submit"]:hover{
     margin-top:5%;
     margin-bottom:8%;
 }
-/*.contenedor-instagram .arturofxtrader{
-    background:#000;
-    padding:1rem;
-}
-.contenedor-instagram .arturofxtrader a{
-    color:#fff;
-}*/
+
 .contenedor-instagram a{
     text-decoration:none; /*Eliminamos los subrayados de los enlaces del contenedor-instagram*/
 }
@@ -584,6 +567,4 @@ footer{
 .columna03 p{
     margin-top:1rem;/*Para aumentar el espacio que hay sobre Volver al inicio*/
 }
-}
-    
-    
+} 
