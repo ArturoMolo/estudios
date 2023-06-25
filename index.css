@@ -182,7 +182,9 @@ button[type="submit"]:hover{
 }
 
 
-
+.elim{
+    text-decoration:none;
+}
 .padre01-padre02{
     width:100%;
     margin-bottom:2rem;
