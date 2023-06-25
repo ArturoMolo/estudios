@@ -129,8 +129,6 @@
 .formulario h1{
     font-weight:normal;
     font-family:normal;
-    /*margin:0.60rem;*/
-    /*margin-left:0;*/
     text-align:center;
     background:#474b4e;
     color:#fff;
@@ -182,9 +180,9 @@ button[type="submit"]:hover{
 }
 
 
-.elim{
+/*.elim{
     text-decoration:black;
-}
+}*/
 .padre01-padre02{
     width:100%;
     margin-bottom:2rem;
@@ -533,9 +531,6 @@ footer{
         height:100%;
         background:black;
         padding-top:13%;
-    }
-    a .elim{
-        text-decoration:black;
     }
 
     /*-----Explora mi sistema------*/
