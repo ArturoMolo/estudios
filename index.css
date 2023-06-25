@@ -183,7 +183,7 @@ button[type="submit"]:hover{
 
 
 .elim{
-    text-decoration:none;
+    text-decoration:black;
 }
 .padre01-padre02{
     width:100%;
@@ -534,12 +534,10 @@ footer{
         background:black;
         padding-top:13%;
     }
-    .elim{
-        text-decoration:none;
+    a .elim{
+        text-decoration:black;
     }
-    .wrapper .elim{
-        text-decoration:none;
-    }
+
     /*-----Explora mi sistema------*/
     .hijo03{ /*Editamos los divs*/
         width:18rem;
