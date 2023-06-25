@@ -534,6 +534,9 @@ footer{
         background:black;
         padding-top:13%;
     }
+    .elim{
+        text-decoration:none;
+    }
     .wrapper .elim{
         text-decoration:none;
     }
