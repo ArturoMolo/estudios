@@ -53,18 +53,6 @@
                 <li><a href="https://www.instagram.com/arturofxtrader/">INSTAGRAM</a></li>
            </ul>
         </nav>
-
-        <!--
-        <div class="cabecera">
-            <p>
-                Nuestros teléfonos de contacto directo:<br>
-                 WhatsApp: +34600111222 y/o +34633444555</p>
-            <div class="enlaces-cabecera">
-            <a class="cursos" href="cursos.html">ESTO ES LO QUE PODEMOS HACER POR TI</a>
-            <a class="sistema" href="contacto.html">CONTACTA CON NOSOTROS</a>
-            </div>
-        </div>
-        -->
     </header>
     
 
@@ -74,24 +62,64 @@
     <section class="wrapper">
         <section class="main">
             <section class="articles">
-                <!---Primer artículo: Divs Explora los cursos--->
+                <!---Primer artículo: estudios universitarios--->
                 <article>
+                    <div class="cursos">
+                        <div class="estudios">
+                            <h1>ESTUDIOS PRIMARIOS, SECUNDARIOS Y BACHILLERATO</h1><br>
+                            <p>
+                                
+                                <br><br>
+                                
+                                <br><br>
+                                
+                                <br><br>
+                                
+                                <br><br>
+                                
+                                <p class="negrita">
+                                    
+                                </p>
+                            </p>
+                        </div>
+                    </div>
+
+                        <!---Primer artículo: Contacto--->
+                    <div class="formulario">
+                        <h1>CONTACTA CON NOSOTROS</h1>
+                    </div>
+
+                    <form id="contactform" action="https://formspree.io/f/arthur_n09@hotmail.com" method="POST">
+                        <label>
+                        Nombre:
+                        <input type="text" name="nombre" required="required" placeholder="Escribe tu nombre" pattern="[a-zA-Z]{1,10}" maxlength="10">
+                        </label>
+                        <label>
+                        Email:
+                        <input type="text" name="_replyto" required="required" placeholder="Escribe tu email">
+
+                        <label>
+                        Asunto:
+                        <input type="text" name="asunto" placeholder="Estudios primarios, secundarios y bachillerato" pattern="[a-zA-Z]{1,10}" maxlength="10">
+                        </label>
+
+                        </label>
+                        <label>
+                        Mensaje:
+                        <textarea name="mensaje" required="required" placeholder="Escribe tu mensaje"></textarea>
+                        </label>
+                        <input type="hidden" name="_next" value="//molotradecompany.com/index.html"/> <!--Volver a esta página después de enviar el mensaje-->
+                        <input type="hidden" name="_subject" value="Nuevo mensaje de mi sitio web"/>
+                        <input type="text" name="_gotcha" style="display:none"/> <!--Para evitar correos spam-->
+                        <script>
+                            var contactform =  document.getElementById('contactform');
+                            contactform.setAttribute('action', '//formspree.io/' + 'arthur_n09' + '@' + 'hotmail' + '.' + 'com');
+                        </script>
                     
-
-
-
-
-
-
-
-
-
-
-
-
+                        <!-- your other form fields go here -->
                     
-
-
+                        <button type="submit">ENVIAR</button>
+                    </form>
                 </article>
             </section>
         </section>
